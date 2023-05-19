@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: "Bellefair",serif;
+}
+
+.row_flex{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Alata', sans-serif;
+    position:absolute;
+    top: 10px;
+
+}
+
+.header{
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+
+.nav_flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    width: 300px;
+    height:1px;
+    background-color: grey;
+}
+
+.nav_logo{
+    margin-right: auto;
+    width: 2rem;
+    margin-left: 1rem;
+
+}
+
+.list-item{
+    list-style: none;
+    background: rgba(255,255,255,0.04);
+    -webkit-backdrop-filter: blur(81.5485px);
+    backdrop-filter: blur(81.5485px);
+    padding: 20px;
+    
+}
+.list-items{
+    display:inline-block;
+    padding: 0 2rem;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: .8rem;
+    color:hsl(0, 0%, 100%);
+}
+
+
+
+.contain{
+    padding: 5rem 3rem 0 5rem;
+    padding-bottom: 3rem;
+    color:white;
+}
+
+
+
+.circle{
+    padding-left:5rem;
+    padding-top:3rem;
+}
+
+.text{
+    padding: 3rem 1rem 2rem 0rem;
+    padding-right: 70px;
+    display:flex;
+}
+
+a._link{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    /* color:rgb(107, 107, 107); */
+}
+.list{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: rgb(107, 107, 107);
+}
+
+.list:hover{
+    background-color: white;
+}
+
+a._link:hover{
+    color:white;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    padding:30px;
+    gap:10px;
+    margin-top:2rem;
+    
+}
+
+.write{
+    display:flex;
+    flex-direction: column;
+    min-width: 495px;
+    min-height: 400px;
+}
+
+.image img{
+   padding-left: 4rem;
+}
+.write p{
+    /* color:red; */
+    padding: 10px 10px 140px 0px
+}
+.text h1{
+    font-family: "Bellefair",serif;
+    font-size: 40px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color:white;
+}
+.text h3{
+    font-size: 30px ;
+    text-transform: uppercase;
+} 
+
+
+
+.text p{
+    font-size: 20px;
+    letter-spacing: .2px;
+    line-height: 1.7;
+    padding-bottom: 10px;
+    
+}
+
+
